@@ -1,0 +1,231 @@
+body {
+    background-image: url('tabsa.jpg');
+    background-size: 100%;
+    background-color: #F8F3F2;
+    font-size: 20px;
+    color: #ffffff ;
+    font-family: 'GIll Sans Extrabold';
+
+}
+
+
+#container{
+width: 1000px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#topbar{
+background-color: #f2f2f2;
+opacity:90%;
+font-family:'Spectral', serif ;
+font-size: 60px;
+text-align: center;
+margin-top: 200px;
+color: #000000;
+
+}
+
+#menu{
+position:absolute;
+left:37.5%;
+top:40%;
+background-color: #000000 ;
+display:inline-block;
+opacity: 92%;
+margin-top: 400px;
+padding: 70px;
+margin:0;  
+ 
+}
+
+
+#menu a {
+text-align:center;
+display: block;
+color: #f2f2f2;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 35px;
+
+
+}
+
+.menu-centered a:hover {
+background-color: #B7985C;
+color: black;
+}
+
+#addmed{
+
+  position:absolute;
+  left:17%;
+  top:25%;
+  background-color: #000000 ;
+  display:inline-block;
+  opacity: 92%;
+  margin-top: 400px;
+  padding: 70px;
+  margin:0;  
+}
+
+#addmed a {
+  text-align:center;
+  
+  color: #e1dda7;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+#sidebar{
+float:left;
+width:270px;
+min-height: 620px;
+margin-top: 8%;
+margin-left: 5%;
+padding:20px;
+background-color: #000000;
+text-align: center;
+font-size: 18px;
+border-right: 2px ;
+opacity:90%;
+}
+
+
+
+.optionL{
+font-size: 18px;
+height: 25px;
+padding: 10px;
+}
+
+.optionL a {
+color: #f2f2f2;
+padding: 10px;
+
+text-decoration: none;
+border-bottom: 1px dashed #fff;
+}
+
+.optionL a:hover {
+background-color: #B7985C;
+color: black;
+}
+
+
+.image-user{
+opacity:100%;
+}
+
+.user{
+text-align:center;
+display: block;
+color: #c0a737;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+margin-bottom: 10%;
+border-bottom: 0.5px solid #fff;
+
+}  
+
+#contents_main{
+  float:left;
+  padding:40px;
+  width: 800px;
+  background-color: #f7f4ef;
+  opacity: 95%;
+  min-height: 580px;
+  text-align: justify;
+  color:#000000;
+  margin-top: 8%;
+}
+
+input[type=submit]{
+  background-color: #B7985C;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 2px 8px;
+  cursor: pointer;
+
+}
+
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+
+}
+
+
+#addmedkit{
+
+  position:absolute;
+  left:34%;
+  top:18%;
+  background-color: #000000 ;
+  display:inline-block;
+  opacity: 92%;
+  margin-top: 400px;
+  padding: 70px;
+  margin:0;  
+}
+
+#addmedkit a {
+  text-align:center;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+#showmedkit{
+
+  position:absolute;
+  left:34%;
+  top:25%;
+  background-color: #000000 ;
+  display:inline-block;
+  opacity: 92%;
+  margin-top: 400px;
+  padding: 50px;
+  margin:0;  
+}
+
+#showmedkit a {
+  text-align:right;
+  
+  color: #e1dda7;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+#profile-pic {
+  float: left;
+  margin-right: 20px;
+  /* If you want to crop the image to a certain size, use something like this */
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
